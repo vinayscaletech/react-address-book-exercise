@@ -36,7 +36,6 @@ function App() {
   /**
    * Text fields onChange handlers
    */
-  
 
   const handleAddressChange = (e) => setAddress(e.target.value);
 
@@ -56,7 +55,6 @@ function App() {
      * - Make sure to add the city to each found address in the response using `transformAddress()` function
      * - Bonus: Add a loading state in the UI while fetching addresses
      */
-    
   };
 
   const handlePersonSubmit = (e) => {
@@ -73,7 +71,7 @@ function App() {
       (address) => address.id === selectedAddress
     );
 
-    addAddress({ ...foundAddress });
+    addAddress({ ...foundAddress, firstName, lastName });
   };
 
   return (
@@ -83,13 +81,14 @@ function App() {
           Create your own address book!
           <br />
           <small>
-            Enter an address by any Australian address add personal info and done! 👏
+            Enter an address by any Australian address add personal info and
+            done! 👏
           </small>
         </h1>
         {/* TODO: Create generic <Form /> component to display form rows, legend and a submit button  */}
         <form onSubmit={handleAddressSubmit}>
           <fieldset>
-            <legend>🏠 Find an address</legend>            
+            <legend>🏠 Find an address</legend>
             <div className="form-row">
               <InputText
                 name="address"
