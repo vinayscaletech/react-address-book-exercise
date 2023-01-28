@@ -1,6 +1,8 @@
 # React Dev Test Assignment ⚛️
 
-https://github.com/vinayscaletech/react-address-book-exercise/blob/ff42d570aaf72f52d12f674609d36b574d298a0e/desired-outcome.mp4
+
+https://user-images.githubusercontent.com/42055456/215254295-b7789a50-08a1-4d4e-a614-610a2b90576d.mp4
+
 
 ## Description
 Try to finish as much TODO's as possible. These are found within the React app codebase. When you view the `/src` folder you will find an application for users that want to create their own addressbook (also shown in the video above). But as mentioned before there are some TODO's to be completed in order to make the application work as expected.
